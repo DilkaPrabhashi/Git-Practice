@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <div class="logo-section txt-center" >
+                <img src="logo1.png" alt="Logo" class="logo-img">
+                <h4>Chameleon</h4>
+            </div>
+       
+        <nav class="navbar">
+            <li><a href="AddUsers.html">Add User</a></li>
+            <li><a href="UsersList.html">Users List</a></li>
+            <li><a href="AddCustomers.html">Add Customer</a></li>
+            <li><a href="#">Delete User</a></li>
+        </nav>
+    </header>
+    <main>
+
+        <section class="main-content">
+            
+                <form action="" id="userDetails">
+                    
+                    <h2 class="txt-center">Registration Form</h2><br>
+                    <p class="txt-center">Please fill out the form with required information</p>
+                    <br>
+                    <fieldset>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="fname"/>
+    
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lname"/>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="mail"/>
+    
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dateofBirth"/>
+    
+                        
+                        <label>Gender:</label><br>
+                        <label for="male">Male</label><input type="radio" id="radio-btn" name="Gender">
+                        <label for="female">Female</label><input type="radio" id="radio-btn" name="Gender">
+                        <label for="other">Other</label><input type="radio" id="radio-btn" name="Gender"><br><br>
+
+                        <label>Game:</label><br>
+                        <label for="cricket">Cricket</label><input type="checkbox" id="check-box" name="Cricket"/>
+                        <label for="football">Football</label><input type="checkbox" id="check-box" name="Football"/>
+                        <label for="badminton">Badminton</label><input type="checkbox" id="check-box" name="Badminton"/>
+                        <br>
+
+                        <label for="cv">Attach your CV</label><input type="file" accept=".pdf">
+
+                        <label for="referrer">How did you hear about us?</label>
+                        <select name="referrer" id="referrer">
+                            <option value="">Select one</option>
+                            <option value="1">Linkden</option>
+                            <option value="2">Facebook</option>
+                            <option value="3">From our official website</option>
+                        </select>
+                        
+
+                        <label for="bio">Provide a Bio:</label>
+                        <textarea id="bio" rows="3" cols="30" name="bio-info" placeholder="Enter your Bio"></textarea>
+
+                        <label for="color-picker">Favourite Color:</label>
+                        <input type="color" id="color-picker"/>
+
+                        <label for="salary">Salary</label>
+                        <input type="number" id="salary" name="Salary" min="10000" >
+
+                        <input type="submit" name="submit-btn" id="submit-b1" value="Submit" />
+                        <input type="button" name="reset-btn" id="reset-b1" value="Reset"/>
+                    </fieldset>
+
+                </form>
+        </section>
+    </main>
+        <footer>
+            
+                <p>Copyright <span>&copy;</span> <a href="#">Dilka</a> All rights reserved</p>
+            
+        </footer>
+
+
+
+</body>
+</html>

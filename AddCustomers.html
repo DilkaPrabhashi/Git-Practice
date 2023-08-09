@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <div class="logo-section txt-center" >
+                <img src="logo1.png" alt="Logo" class="logo-img">
+                <h4>Chameleon</h4>
+            </div>
+       
+        <nav class="navbar">
+            <li><a href="AddUsers.html">Add User</a></li>
+            <li><a href="UsersList.html">Users List</a></li>
+            <li><a href="AddCustomers.html">Add Customer</a></li>
+            <li><a href="#">Delete User</a></li>
+        </nav>
+    </header>
+    <main>
+
+        <section class="main-content">
+            
+                <form action="" id="customerDetails">
+                    
+                    <h2 class="txt-center">Customer Registration Form</h2><br>
+                    <p class="txt-center">Please fill out the form with required information</p>
+                    <br>
+                    <fieldset>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="firstName" name="fname"/>
+    
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="lastName" name="lname"/>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="mail"/>
+    
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age"/>
+
+                        <label for="mobile">Mobile Number</label>
+                        <input type="number" id="mobile" name="mobileNo"/>
+
+                        <input type="button" name="submit-btn" id="submit-b1" value="Submit" onclick="addUser()"/>
+                        <input type="button" name="reset-btn" id="reset-b1" value="Reset" onclick="resetUser()"/>
+    
+                </form>
+        </section>
+        <section class="main-content-userpage">
+            <div id="table-data">
+               <!-- <table id="users-table">
+                    <caption>List of Users</caption>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>  
+                        <th>Gender</th>
+                        <th>Game</th>
+                        <th>How do you hear about us</th>
+                        <th>Bio</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+            </table> --> 
+
+            </div>
+
+
+        </section>
+ </main>
+        <footer>
+            
+                <p>Copyright <span>&copy;</span> <a href="#">Dilka</a> All rights reserved</p>
+            
+        </footer>
+        <script src="script2.js"></script>
+
+</body>
+</html>
